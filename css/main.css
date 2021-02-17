@@ -13,3 +13,8 @@
 .bb-content img {
   border-radius: 100%;
 }
+
+/* HOME MAIN MENU STYLES */
+.home-menu .main-menu {
+  list-style: none;
+}
