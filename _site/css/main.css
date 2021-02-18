@@ -35,10 +35,14 @@ body {
   list-style: none;
 }
 .home-menu-link {
+  color: #000;
+  display: inline-block;
+  font-size: 3em;
+  margin-bottom: 0.2em;
   text-decoration: none;
 }
 .home-menu-link:hover {
-  font-size: 1.25em;
+  font-size: 3.25em;
   font-weight: bold;
 }
 
