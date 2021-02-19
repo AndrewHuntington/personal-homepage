@@ -13,26 +13,38 @@ body {
   width: 100%;
 }
 .content-wrapper h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 300;
+  letter-spacing: 0.1em;
+  margin: 0.2em 0;
   text-align: center;
+  text-transform: uppercase;
 }
 .social-list {
-  display: inline-block;
+  float: left;
   list-style: none;
   margin: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+.social-list > li {
+  display: inline-block;
 }
 
+/* LANDING PAGE STYLES */
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
 /* BULLETIN BOARD STYLES */
 .bb-content img {
   border-radius: 100%;
 }
 
-
 /* HOME MAIN MENU STYLES */
-.home-menu .main-menu {
-  list-style: none;
+.home-menu {
+  clear: both;
 }
 .home-menu-link {
   color: #000;
@@ -41,8 +53,22 @@ body {
   margin-bottom: 0.2em;
   text-decoration: none;
 }
-.home-menu-link:hover {
+/* .home-menu-link:hover,
+.home-menu-link:active {
+  font-size: 3.25em;
+  font-weight: bold;
+} */
+.home-menu-link:hover,
+.home-menu-link:active {
   font-size: 3.25em;
   font-weight: bold;
 }
-
+.menu-item {
+  text-align: center;
+}
+.home-menu .main-menu {
+  list-style: none;
+}
+.bb-content figure {
+  text-align: center;
+}
