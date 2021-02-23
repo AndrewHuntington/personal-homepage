@@ -1,5 +1,9 @@
 <head>
-  <title>Andrew Huntington</title>
+  {% if page.title %}
+    <title>{{ page.title }} | Andrew Huntington</title>
+  {% else %}
+    <title>Andrew Huntington</title>
+  {% endif %}
   <link href="/favicon.png" rel="icon">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta charset="utf-8">
