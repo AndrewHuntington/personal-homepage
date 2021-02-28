@@ -1,8 +1,18 @@
+<!-- 
+  This is the default layout for all other pages besides the index page.
+  It includes a header with navigation links.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
     {% include head.html %}
 
   <body>
+    {% comment %}
+      <!-- Header with nav links -->
+      {% include header.html %} 
+    {% endcomment %}
+
     <div class="content-wrapper">
       {{ content }}
     </div>

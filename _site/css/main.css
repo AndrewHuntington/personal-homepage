@@ -29,13 +29,19 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
   text-transform: uppercase;
 }
+.content-wrapper p {
+  padding-top: 1em;
+  text-align: center;
+}
 
-/* LANDING PAGE STYLES */
-.home-wrapper {
+/* GENERAL PAGE STYLES */
+.home-wrapper, .blog-wrapper, .about-wrapper,
+.resume-wrapper, .portfolio-wrapper, .contact-wrapper {
   max-width: 700px;
   flex: 1;
 }
 
+/* --- LANDING PAGE STYLES START--- */
 /* SOCIAL LINKS STYLES */
 .social-list {
   float: left;
@@ -98,6 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 .home-menu .main-menu {
   list-style: none;
 }
+/* --- LANDING PAGE STYLES END --- */
 
 /* FOOTER STYLES */
 .footer {
@@ -123,7 +130,6 @@ h1,h2,h3,h4,h5,h6 {
   color: #999;
   font-size: 1em;
 }
-
 
 
 /* MOBILE STLYES */
