@@ -35,8 +35,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* GENERAL PAGE STYLES */
-.home-wrapper, .blog-wrapper, .about-wrapper,
-.resume-wrapper, .portfolio-wrapper, .contact-wrapper {
+.page {
   max-width: 700px;
   flex: 1;
 }
@@ -113,7 +112,7 @@ h1,h2,h3,h4,h5,h6 {
   display: block;
   padding: 5vh 0;
   text-align: center;
-  min-width: 100vw;
+  /* min-width: 100vw; */
   flex: 1;
 }
 .footer h3 {
