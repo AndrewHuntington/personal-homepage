@@ -36,8 +36,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* GENERAL PAGE STYLES */
 .page {
-  max-width: 700px;
   flex: 1;
+  max-width: 980px;
+  width: 85vw;
 }
 
 /* --- LANDING PAGE STYLES START--- */
@@ -112,7 +113,6 @@ h1,h2,h3,h4,h5,h6 {
   display: block;
   padding: 5vh 0;
   text-align: center;
-  /* min-width: 100vw; */
   flex: 1;
 }
 .footer h3 {
@@ -130,6 +130,104 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1em;
 }
 
+/* COLUMN STYLES */
+.col {
+  box-sizing: border-box;
+  padding: 2em;
+}
+.col-two {
+  display: flex;
+}
+.col-two .col-aside {
+  flex: 0 0 20em;
+  order: 1;
+}
+.col-two .col-content {
+  flex: 1;
+}
+
+/* BLOG STYLES */
+.blog-recent {
+  text-align: right;
+}
+.blog-title-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-title-list li ~ li {
+  margin-top: 1.5em;
+}
+.blog-title-list span {
+  color: #999;
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+.blog-posts ~ .blog-posts {
+  border-top: 1px dotted rgba(0, 0, 0, 0.1);
+  margin-top: 4em;
+  padding-top: 4em;
+}
+.blog-posts .post-header {
+  font-size: 0.8rem;
+}
+.post-header {
+  margin-bottom: 1.5em;
+}
+.post-header img,
+.post-header .social-link {
+  margin-right: 0.5em;
+}
+.post-header img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2.5em;
+  vertical-align: middle;
+}
+.posts-image {
+  background-position: center;
+  background-size: cover;
+  height: 6em;
+  margin-bottom: 1.5em;
+}
+.post {
+  width: 100%;
+}
+.post-content,
+.post-footer {
+  margin: auto;
+  max-width: 40em;
+  width: 85vw;
+}
+.pull-left {
+  float: left;
+  margin: 2em 2em 2em -2%;
+}
+.pull-right {
+  float: right;
+  margin: 2em -2% 2em 2em;
+}
+.post-aside {
+  background-color: rgba(0, 0, 0, 0.01);
+  float: right;
+  margin: 0 0 2em 2em;
+  padding: 2em;
+}
+.post .post-header {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+.post-content {
+  font-size: 1.1rem;
+}
+.post-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 3em;
+  padding-top: 2em;
+}
 
 /* MOBILE STLYES */
 @media (max-width: 800px) {
